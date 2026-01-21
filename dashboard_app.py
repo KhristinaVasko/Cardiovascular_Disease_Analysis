@@ -117,7 +117,7 @@ app.layout = dbc.Container([
                 dbc.CardHeader(
                     html.H6("Feature Importance for Disease Prediction",
                            className="mb-0", style={'fontWeight': 'bold'}),
-                    style={'backgroundColor': '#3498db', 'color': 'white'}
+                    style={'backgroundColor': '#2c3e50', 'color': 'white'}
                 ),
                 dbc.CardBody([
                     html.P("Click any bar to see its distribution →",
@@ -135,7 +135,7 @@ app.layout = dbc.Container([
                 dbc.CardHeader(
                     html.H6(" Disease Prevalence by Risk Factors",
                            className="mb-0", style={'fontWeight': 'bold'}),
-                    style={'backgroundColor': '#e74c3c', 'color': 'white'}
+                    style={'backgroundColor': '#2c3e50', 'color': 'white'}
                 ),
                 dbc.CardBody([
                     html.P("Updates when age range is selected →",
@@ -153,7 +153,7 @@ app.layout = dbc.Container([
                 dbc.CardHeader(
                     html.H6(" Health Risk Score Distribution",
                            className="mb-0", style={'fontWeight': 'bold'}),
-                    style={'backgroundColor': '#f39c12', 'color': 'white'}
+                    style={'backgroundColor': '#2c3e50', 'color': 'white'}
                 ),
                 dbc.CardBody([
                     html.P("Shows composite risk levels →",
@@ -174,7 +174,7 @@ app.layout = dbc.Container([
                 dbc.CardHeader(
                     html.H6("Age vs Blood Pressure - Interactive Selection",
                            className="mb-0", style={'fontWeight': 'bold'}),
-                    style={'backgroundColor': '#16a085', 'color': 'white'}
+                    style={'backgroundColor': '#2c3e50', 'color': 'white'}
                 ),
                 dbc.CardBody([
                     dbc.Alert([
@@ -198,7 +198,7 @@ app.layout = dbc.Container([
                 dbc.CardHeader(
                     html.H6("Feature Analysis",
                            className="mb-0", style={'fontWeight': 'bold'}),
-                    style={'backgroundColor': '#8e44ad', 'color': 'white'}
+                    style={'backgroundColor': '#2c3e50', 'color': 'white'}
                 ),
                 dbc.CardBody([
                     html.P("Shows correlation matrix or selected feature distribution",
