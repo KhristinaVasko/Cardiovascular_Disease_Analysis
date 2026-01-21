@@ -1,0 +1,35 @@
+DATA WRANGLING SUMMARY REPORT
+======================================================================
+
+Date: 2026-01-20 11:43:52
+
+DATASET TRANSFORMATION:
+----------------------------------------------------------------------
+Original rows:      70,000
+Final rows:         68,575
+Rows removed:       1,425 (2.04%)
+Original columns:   13
+Final columns:      23
+New features:       10
+
+CLEANING APPLIED:
+----------------------------------------------------------------------
+Blood Pressure:  50-250 / 40-150 mmHg
+Height:          130-220 cm
+Weight:          30-200 kg
+
+NEW FEATURES CREATED:
+----------------------------------------------------------------------
+ 1. age_years
+ 2. age_group
+ 3. bmi
+ 4. bmi_category
+ 5. bp_category
+ 6. gender_label
+ 7. cholesterol_label
+ 8. glucose_label
+ 9. health_risk_score
+10. risk_level
+
+======================================================================
+DATA WRANGLING COMPLETE

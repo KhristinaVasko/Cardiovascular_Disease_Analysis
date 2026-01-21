@@ -1,0 +1,57 @@
+MACHINE LEARNING MODEL EVALUATION REPORT
+======================================================================
+
+Date: 2026-01-20 11:43:42
+
+DATASET INFORMATION:
+----------------------------------------------------------------------
+Total samples:       68,575
+Training samples:    54,860 (80%)
+Test samples:        13,715 (20%)
+Number of features:  11
+Target variable:     cardio
+
+FEATURES USED:
+----------------------------------------------------------------------
+ 1. age_years
+ 2. gender
+ 3. height
+ 4. weight
+ 5. ap_hi
+ 6. ap_lo
+ 7. cholesterol
+ 8. gluc
+ 9. smoke
+10. alco
+11. active
+
+MODEL PERFORMANCE COMPARISON:
+----------------------------------------------------------------------
+Model                     Accuracy   Precision  Recall     F1-Score   ROC-AUC   
+----------------------------------------------------------------------
+Logistic Regression       0.7247     0.7503     0.6647     0.7049     0.7878    
+Random Forest             0.7068     0.7079     0.6934     0.7006     0.7685    
+Gradient Boosting         0.7308     0.7457     0.6918     0.7177     0.7974    
+
+BEST MODEL:
+----------------------------------------------------------------------
+Model: Gradient Boosting
+ROC-AUC Score: 0.7974
+Accuracy: 0.7308
+F1-Score: 0.7177
+
+FEATURE IMPORTANCE (Top 10):
+----------------------------------------------------------------------
+ap_hi               : 0.7472
+age_years           : 0.1291
+cholesterol         : 0.0759
+weight              : 0.0168
+ap_lo               : 0.0127
+active              : 0.0050
+gluc                : 0.0044
+height              : 0.0028
+smoke               : 0.0026
+alco                : 0.0020
+
+======================================================================
+MODELING COMPLETE
